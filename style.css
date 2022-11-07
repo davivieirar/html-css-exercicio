@@ -1,0 +1,39 @@
+.image{
+    object-fit: cover;
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    max-height: 520px;
+    border: 1px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 2px 5px 2px #00000020;
+    box-shadow: 0 2px 5px 2px #00000020;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#img-legend{
+    text-align:center;
+}
+
+div > figcaption {
+    font-size: 15px;
+    font-weight: 300;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    color: #606060;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div > img{
+border-radius:30px;
+}
