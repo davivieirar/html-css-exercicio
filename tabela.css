@@ -39,13 +39,24 @@ border-radius:30px;
 }
 
 #button{
-    color:green;
+    background: grey;
+	color: white;
+	/* border-style: outset;
+	border-color: #0066A2; */
+	height: 50px;
+	width: 100px;
+	font: bold15px arial,sans-serif;
+	text-shadow: none;
     
 }
 
 table, th, td{
     border:1px solid black;
     border-collapse:collapse;
+}
+
+td, th{
+    text-align:left;   
 }
 
 #button{
@@ -99,4 +110,6 @@ flex-direction: column;
 } */
 
 #customers tr:nth-child(even){background-color: #f2f2f2;}
-table tr:hover {background-color: #ddd;}
+
+tr:hover {background-color: #ddd;}
+
